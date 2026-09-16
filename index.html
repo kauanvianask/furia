@@ -18,26 +18,26 @@
 
     <div id="page" class="flex">
         <div>
-            <header><img src="Design_sem_nome_2.png" alt=""></header>
+            <header><img src="./img/Design_sem_nome_2.png" alt=""></header>
             <main>
-                <div class="input-login">
-                    <label for="Name">Digite seu nome</label>
-                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
-                </div>
-
-                <div class="input-login">
-                    <div class="label-login">
-                        <label for="rm">RM</label>
-                        <a href="#">Nao tenho o meu RM!</a>
+                <div class="box">
+                    <h2>LOGIN</h2>
+                    <form action="/enviar-dados" method="post">
+                    <div class="input-login">
+                        <label for="Name">Nome Completo</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome">
                     </div>
-                    <input type="password" id="rm">
+                    <div class="input-login">
+                        <div class="label-login">
+                            <label for="rm">RM</label>
+                            <a href="#">Nao lembro o meu RM!</a>
+                        </div>
+                        <input type="password" id="rm">
+                    </div>
+                    <button type="submit">Entrar</button>
+                    </div>
+                    </form>
                 </div>
-
-                <button type="submit">Entrar</button>
-                <div class="create-account">Ainda não tem conta?
-                    <a href="#">Inscreva-se</a>
-                </div>
-                </form>
             </main>
         </div>
     </div>
